@@ -53,4 +53,6 @@ class StudentsController < ApplicationController
   def find_student
     @student = Student.find(params[:id])
   end
+
+  def m1; end
 end
